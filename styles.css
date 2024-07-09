@@ -1,0 +1,50 @@
+img{
+    border: 5px dotted rgb(71, 7, 248)(226, 74, 74);
+    padding: 15px; 
+    margin-top: 2px;
+}
+a[href] {
+    color: #09f888;
+    margin-right: 20px;
+}
+.zadokone{
+    background-color: blue;
+    color: azure;
+    font-size: 20px;
+}
+.zadoktwo{
+    color: rgb(253, 3, 78);
+    font-size: 20px;
+}
+
+.zadokthree{
+    background-color: green;
+    color: rgb(49, 18, 28);
+    font-size: 20px;
+}
+nav a:hover{
+    color: green;
+}
+nav a:active{
+    color: rgb(223, 247, 10);
+}
+p{
+    font-size: 20px;
+}
+p::first-letter{
+    color: blue;
+}
+p::first-line{
+    color: rgb(247, 10, 195);
+}
+p::selection{
+    color: black;
+    background-color: rgb(8, 161, 250);
+}
+
+/* :root{ 
+    --background color: #00f;
+    --padding-large: 30px
+    --color: #fff
+    --margin-small: 10px
+} */
